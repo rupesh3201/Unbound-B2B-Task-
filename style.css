@@ -183,7 +183,17 @@ line-height: 27.2px;
 text-align: left;
 
 }
-.middelfrom
+.middelfrom {
+    height: 600px;
+    width: 530px;
+    border: 2px solid #C0C0C0;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    z-index: 100; /* Higher z-index to appear above */
+    position: relative; /* Set position to relative to work with z-index */
+ }
+ 
+/* .middelfrom
 {
    height: 600px;
    width: 530px;
@@ -191,18 +201,19 @@ text-align: left;
    border-radius: 8px;
    background-color:  #FFFFFF;
    ;
-    /* border: 1px solid black; */
+   z-index: 100px;
+   /* position: absolute; */
 
-    
-}
+
 .fromheading
 {
-margin:  5px 35px ;
+margin: 10px 20px;
 font-family: "Open Sans", sans-serif;;
 font-size: 22px;
 font-weight: 700;
 line-height: 40.85px;
 text-align: left;
+
 }
 .form-group-Name{
     margin-bottom: 20px;
@@ -220,6 +231,8 @@ text-align: left;
     padding: 30px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    /* z-index: 100; */
+    /* position: absolute; */
 }
 
 h2 {
@@ -346,10 +359,26 @@ button:hover {
 {
     position:absolute;
     height: 350px;
-    left: 1px;
-  
+    left: -10px;
     top: 906px;
+    z-index: 1; 
+  
 
+}
+/* .imgarc
+{
+    position:absolute;
+    height: 350px;
+  right: -280px;
+    top: 906px;
+} */
+.imgarc {
+    position: absolute;
+    height: 300px;
+    right: -23px;
+    top: 925px;
+    z-index: 1; /* Lower z-index to send it behind the form */
+    
 }
 /* fottor */
 
