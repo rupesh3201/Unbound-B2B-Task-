@@ -69,7 +69,6 @@ position: relative;
    height: 180px;
    height: 40px;
    top:185px;
-
 }
 .heading
 {
@@ -110,7 +109,93 @@ position: relative;
     height:10px;
     top: 280px;   
     text-align: start;
+}
+/* middel body css */
+.Middel_body_conatiner
+{
+    margin: 60px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+.middel_heading
+{
+    width: 744px;
+    /* border: 1px solid black; */
+height: 106px;
+top: 653px;
+left: 216px;
+gap: 0px;
+margin-left: 120px;
+opacity: 0px;
+}
+.M_heading
+{
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+  line-height:28px;
+  color:  #000000;
+ 
+}
+.M_subheading
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+  line-height:28px;
+  color:  #000000;
+}
+.M_subheading span{
+    color:  #FFB800;
+
+}
+.paraheading
+{
+    font-family: Poppins;
+font-size: 15px;
+font-weight: 400;
+line-height: 27.2px;
+text-align: left;
+margin-left: 2px;
+
+}
+.ALLpointsdiv
+{
+    margin-left: 10px;
+}
+.points_div
+{
+    display: flex;
+    gap: 10px;
+    align-items: start;
+
+}
+.points_content
+{
+    font-family: Poppins;
+font-size: 15px;
+font-weight: 400;
+line-height: 27.2px;
+text-align: left;
+
+}
+.middelfrom
+{
+   height: 600px;
+   width: 530px;
+   border: 2px solid #C0C0C0;
+   border-radius: 8px;
+   background-color:  #FFFFFF;
+   ;
+    /* border: 1px solid black; */
 
     
+}
+.fromheading
+{
+    margin: 10px 20px;
 
 }
