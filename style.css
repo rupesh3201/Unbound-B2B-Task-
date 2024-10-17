@@ -203,6 +203,137 @@ font-size: 22px;
 font-weight: 700;
 line-height: 40.85px;
 text-align: left;
+}
+.form-group-Name{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40px;
+    margin-top:50px ;
+}
+
+/* from css */
+.form-container {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.FullnameConatiner {
+   
+    margin: 35px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: start;
+    gap: 35px;
+    align-items: center;
+    /* gap: 10px; */
+   
+}
+.checkboxcontainer
+
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Poppins;
+font-size: 12px;
+gap: 10px;
+margin: 20px 50px;
+}
+.form-group-half {
+    width: 200px;
+    color: gray;
+}
+.singlerow_container
+{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin-top: -20px;
+    margin-left:40px;
+    gap: 15px;
+
+}
+.jobConatier
+{
+    margin-top: 15px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: start;
+    gap: 35px;
+  
+
+}
+.form-email{
+   width: 435px;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="tel"], 
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+input[type="text"]:focus, 
+input[type="email"]:focus, 
+input[type="tel"]:focus, 
+select:focus {
+    border-color: #007BFF;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 120px;
+    height: 40px;
+    padding: 10px 20px;
+    top: 658px;
+    left: 40px;
+    
+    gap: 0px;
+    color: whitesmoke;
+    background-color:  #FF9A00;
+    border: none;
+    margin-left: 49px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    opacity: 0px;
+    
 
 
+}
+
+button:hover {
+    background-color:  #ce7f07;
+    transform: 1s ease-in;
+ 
 }
