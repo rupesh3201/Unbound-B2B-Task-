@@ -54,5 +54,63 @@ position: relative;
     right: 480px;
     height:10px;
     top: 405px;   
+}
+.Greyline
+{
+   position:absolute;   
+   left: 0px;
+   height: 130px;
+   top:295px;
+}
+.dots
+{
+    position:absolute;   
+   left: 40px;
+   height: 180px;
+   height: 40px;
+   top:185px;
+
+}
+.heading
+{
+    height: 400px;
+    width: 500px;
+    /* border:1px solid black; */
+    position: absolute;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    position: absolute;
+    right: 880px;
+    height:10px;
+    color:  #000000;
+    ;
+
+    top: 85px;   
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+    font-weight: 900;
+    align-items: justify;
+  font-style: normal;
+
+}
+.heading h1 span {
+    color:  #FFB800;
+    ;
+}
+.subheading
+{
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    /* line-height: 22px; */
+    text-align: left;
+    position: absolute;
+    right: 750px;
+    height:10px;
+    top: 280px;   
+    text-align: start;
+
+    
 
 }
