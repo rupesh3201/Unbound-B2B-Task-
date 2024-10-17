@@ -5,11 +5,54 @@
 }
 .navbar
 {
+    height: 70px;
     margin: 0px;
     padding: 0px;
 }
 .Background_img
 {
+ height: 350px;
+ width: 100%;
 margin: 0px;
 position: relative;
+}
+.sidegirl_img
+{
+    position: absolute;
+    right: 10px;
+    height: 350px;
+}
+.img4_img{
+    position: absolute;
+    right: 564px;
+    height: 60px;
+}
+.blackarc
+{
+    position: absolute;
+    right: 566px;
+  height:158px;
+
+}
+.hexagon
+{
+    position: absolute;
+    right: 448px;
+    height:64px;
+    top: 291px;
+}
+.sleepingline
+{
+    position: absolute;
+    right: 375px;
+    height:79px;
+    top: 346px;   
+}
+.Arrow
+{
+    position: absolute;
+    right: 480px;
+    height:10px;
+    top: 405px;   
+
 }
