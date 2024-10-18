@@ -45,6 +45,11 @@ document.addEventListener('DOMContentLoaded', function () {
             newsletter: newsletter,
             terms: terms
         };
+        localStorage.setItem('formData', JSON.stringify(formData));
+
+        alert('Data Sent Sucessfully We Will Connect  Soon!');
+
+        form.reset();
 
     
        
