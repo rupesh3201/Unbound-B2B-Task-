@@ -873,3 +873,416 @@ button:hover {
 }
 
 }
+
+/* Styles for medium-sized screens between 481px and 621px */
+@media screen and (min-width: 481px) and (max-width: 800px) {
+    
+    .navbar
+    {
+        /* display: none; */
+        height: 50px;
+        margin-left:25px ;
+    
+    }
+    .Background_img
+    {
+     height: 250px;
+     width: 100%;
+    margin: 0px;
+    position: relative;
+    }
+    .sidegirl_img
+    {
+        position: absolute;
+        right: 10px;
+        height:250px;
+    }
+    .img4_img{
+        position: absolute;
+        right: 403px;
+        height:24px;
+    }
+    .blackarc
+    {
+        position: absolute;
+        right: 408px;
+        height:109px;
+    
+    }
+    .hexagon
+    {
+        position: absolute;
+        right: 322px;
+        height:45px;
+        top: 212px;   
+    }
+    .sleepingline
+    {
+        position: absolute;
+        right: 272px;
+        height:53px;
+        top: 250px;   
+    }
+    .Arrow
+    {
+        position: absolute;
+        right: 350px;
+        height:10px;
+        top: 280px;     
+    }
+    .Greyline
+    {
+       position:absolute;   
+       left: -5px;
+    
+        height:90px;
+        top: 216px;  
+    }
+    .dots
+    {
+        position:absolute;   
+        right: 5500px;
+        height:30px;
+        top: 160px;  
+    }
+    .heading_conatiner
+    {
+        position: absolute;
+        top: 50px;
+        font-size: 5px;
+        margin-left: -30px;
+     
+    
+    }
+    .heading
+    {
+        font-size: 14px;
+        top:30px;
+        color: rgb(20, 16, 18);
+        position: absolute;
+       left: 55px;
+    }
+    
+    .heading h1 span {
+        font-size: 10px;
+        color:  #FFB800;
+        margin-top: 700px;
+        right: 10px;
+        font-size: 14px;
+       
+    }
+    .subheading
+    {
+        margin-top:-130px;
+        font-size: 10px;
+        margin-left: 23px;
+        left:32px ;
+     
+    }
+    /* middel body css */
+    .Middel_body_conatiner
+    {
+        margin-top:320px;
+        margin-left:-15px;
+       
+     
+       
+    }
+    .middel_heading
+    {
+        
+    margin-left: 120px;
+  
+    }
+    .M_heading
+    {
+       
+        font-size: 20px;
+        font-weight: 700;
+      line-height:28px;
+      margin-left: -50px;
+      color:  #000000;
+     
+    }
+    .M_subheading
+    {
+        margin-left: -50px;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .M_subheading span{
+        color:  #FFB800;
+       
+    }
+    .paraheading
+    {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.2px;
+    text-align: left;
+    margin-left: -50px;
+    margin-top:10px;
+    
+    }
+    .ALLpointsdiv
+    {
+        margin-left: -50px;
+        height: 550px;
+        width: 800px;
+        /* background-color: #007BFF; */
+        position: relative;
+    }
+    .points_div
+    {
+        width: 800px;
+        text-align: justify;
+        margin-left: 50px;
+        font-size: 18px;
+        gap: 5px;
+    }
+    .points_div h1
+    {
+        display: none;
+    
+    }
+    
+    .points_content
+    {
+        /* display: none; */
+        font-size: 12px;
+        text-align: justify;
+       
+    
+       
+    margin-top: -5px;
+    margin-left: -35px;
+    
+    }
+    /* Form element  */
+    .middelfrom {
+        height: 520px;
+        width: 600px;
+        left: -820px;
+        margin-top:350px;
+        border: 2px solid #C0C0C0;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+        z-index: 100; /* Higher z-index to appear above */
+        position: relative; /* Set position to relative to work with z-index */
+     }
+    
+    .fromheading
+    {
+    margin: 10px 20px;
+    font-family: "Open Sans", sans-serif;;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40.85px;
+    text-align: left;
+    
+    }
+    .form-group-Name{
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 100px;
+        margin-top:50px ;
+    }
+    
+    /* from css */
+    .form-container {
+        background-color: #fff;
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 30px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        /* z-index: 100; */
+        /* position: absolute; */
+    }
+    /*  */
+    h2 {
+        text-align: center;
+        color: #333;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    /*  */
+    #myForm
+    {
+        margin-top: -35px;
+        margin-left:20px;
+    }
+    
+    .FullnameConatiner {
+       
+        margin: 35px;
+        margin-left: 40px;
+        display: flex;
+        justify-content: start;
+        gap: 35px;
+        align-items: center;
+        /* gap: 10px; */
+       
+    }
+    .checkboxcontainer
+    
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: Poppins;
+        font-size: 10px;
+        gap: 5px;
+       margin-left: 10px;
+    }
+    .form-group-half {
+        width: 200px;
+        color: gray;
+    }
+    .singlerow_container
+    {
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        margin-top: -20px;
+        margin-left:40px;
+        gap: 15px;
+    
+    }
+    .jobConatier
+    {
+        margin-top: 15px;
+        margin-left: 40px;
+        display: flex;
+        justify-content: start;
+        gap: 25px;
+        width: 650px;
+      
+    
+    }
+    .form-email{
+       width: 440px;
+    }
+    
+    input[type="text"], 
+    input[type="email"], 
+    input[type="tel"], 
+    select {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        outline: none;
+        transition: border 0.3s ease;
+    }
+    
+    input[type="text"]:focus, 
+    input[type="email"]:focus, 
+    input[type="tel"]:focus, 
+    select:focus {
+        border-color: #007BFF;
+    }
+    
+    input::placeholder {
+        color: #aaa;
+    }
+    
+    input[type="checkbox"] {
+        margin-right: 10px;
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    
+    button {
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        width: 120px;
+        height: 40px;
+        padding: 10px 20px;
+        top: 658px;
+        left: -10px;
+        gap: 0px;
+        color: whitesmoke;
+        background-color:  #FF9A00;
+        border: none;
+        margin-left: 49px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        opacity: 0px;
+    }
+    
+    button:hover {
+        background-color:  #ce7f07;
+        transform: 1s ease-in;
+     
+    }
+    /* chat gpt responsive */
+    .menndarcimg {
+        height: 150px; /* Scale down for smaller screens */
+        top: -300px;
+        left: 0; /* Adjust positioning */
+    }
+    
+    .menndarc {
+        height: 150px; 
+        left: -20px; 
+        top: 1180px; 
+    }
+    
+    .imgarc {
+        height: 100px; 
+        left: -130px; 
+        top: 1216px; 
+    }
+    
+    .triangle {
+        height: 100px; 
+       
+        left: 430px; 
+        top: 1200px; 
+    }
+    
+    .footer {
+        height: 120px; /* Adjust height */
+        flex-direction: column; /* Stack items vertically */
+        padding: 20px; /* Add padding */
+        width: 800px;
+     
+    }
+    
+    .footer h2 {
+        font-size: 14px; /* Smaller font size */
+        margin-left: 50px;
+        margin-top: -60px;
+        position: relative;
+        
+    }
+    
+    .footer h4 {
+        margin-top: -30px;
+        font-size: 10px; /* Smaller font size */
+        margin-left: 80px;
+        /* margin-top: 10px; */
+        position:absolute;
+    
+        
+    }
+    
+    .footer-links li {
+        display: block; /* Stack links vertically */
+        margin: 10px 0; /* Add margin */
+        object-fit: cover;
+    }
+    
+    .footer-links a {
+        font-size: 10px; /* Smaller font size */
+    }
+}    
+@media screen and (min-width:801px) and (max-width:1200px) 
+{
+    
+}
