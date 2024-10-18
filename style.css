@@ -365,21 +365,23 @@ button:hover {
   
 
 }
-/* .imgarc
-{
-    position:absolute;
-    height: 350px;
-  right: -280px;
-    top: 906px;
-} */
+
 .imgarc {
     position: absolute;
     height: 300px;
     right: -23px;
     top: 925px;
-    z-index: 1; /* Lower z-index to send it behind the form */
-    
-}
+    z-index: 1;
+ }
+ .triangle
+ {
+    position: absolute;
+    height: 80px;
+    right: 700px;
+    top: 960px;
+    z-index: 1;
+
+ }
 /* fottor */
 
 .footer {
