@@ -529,38 +529,38 @@ position: relative;
    left: 5px;
    /* height: 15px; */
    height: 20px;
-   top:65px;
+   top:62px;
+}
+.heading_conatiner
+{
+    position: absolute;
+    top: 10px;
+    font-size: 5px;
+    margin-left: -75px;
+ 
+
 }
 .heading
 {
-    height: 400px;
-    width: 500px;
-    /* border:1px solid black; */
+    font-size: 8px;
+    top:50px;
+    color: rgb(20, 16, 18);
     position: absolute;
-    font-family: 'Montserrat';
-    font-size: 25px;
-    position: absolute;
-    right: 880px;
-    height:10px;
-    color:  #000000;
-    ;
-
-    top: 85px;   
-    font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-    font-weight: 900;
-    align-items: justify;
-  font-style: normal;
-
+    margin-left: 50px;
 }
+
 .heading h1 span {
+    font-size: 10px;
     color:  #FFB800;
-    ;
+    margin-top: 700px;
+    right: 10px;
+    font-size: 6px;
+    margin-left: 0px;
 }
 .subheading
 {
     font-family: Poppins;
-    font-size: 20px;
+   font-size: 12px;
     font-style: italic;
     font-weight: 600;
     /* line-height: 22px; */
@@ -570,48 +570,48 @@ position: relative;
     height:10px;
     top: 280px;   
     text-align: start;
+    margin-left: -100px;
 }
 /* middel body css */
 .Middel_body_conatiner
 {
-    margin: 60px 20px;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-
+    margin-top:230px;
+    margin-left: px;
+ 
+   
 }
 .middel_heading
 {
+    /* display: none; */
     width: 744px;
     /* border: 1px solid black; */
 height: 106px;
-top: 653px;
+top: 700px;
 left: 216px;
 gap: 0px;
+font-size: 20px;
 margin-left: 120px;
 opacity: 0px;
 }
 .M_heading
 {
-    margin: 0px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
+   
+    font-size: 10px;
     font-weight: 700;
   line-height:28px;
+  margin-left: -50px;
   color:  #000000;
  
 }
 .M_subheading
 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-  line-height:28px;
-  color:  #000000;
+    margin-left: -50px;
+    font-size: 10px;
+    margin-top: 10px;
 }
 .M_subheading span{
     color:  #FFB800;
-
+   
 }
 .paraheading
 {
