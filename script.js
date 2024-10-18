@@ -16,7 +16,42 @@ document.addEventListener('DOMContentLoaded', function () {
         const industry = document.getElementById('industry').value;
         const newsletter = document.getElementById('newsletter').checked;
         const terms = document.getElementById('terms').checked;
+        
+        if (
+            !firstName || !lastName || !email || !phone || !companyName || 
+            !jobTitle || !companySize || !country || !industry || !terms
+        ) {
+            alert("Please fill in all required fields and agree to the terms.");
+            return;
+        }
 
+     
+        if (!terms) {
+            alert("You must agree to receive information.");
+            return;
+        }
+
+        // Create an object to store the form data
+        const formData = {
+            firstName: firstName,
+            lastName: lastName,
+            email: email,
+            phone: phone,
+            companyName: companyName,
+            jobTitle: jobTitle,
+            companySize: companySize,
+            country: country,
+            industry: industry,
+            newsletter: newsletter,
+            terms: terms
+        };
+
+    
+        localStorage.setItem('formData', JSON.stringify(formData));
+
+        alert('Data Sent Sucessfully We Will Connect  Soon!');
+
+        form.reset();
    
     });
 });
