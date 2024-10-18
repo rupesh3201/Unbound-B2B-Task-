@@ -47,11 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
         };
 
     
-        localStorage.setItem('formData', JSON.stringify(formData));
-
-        alert('Data Sent Sucessfully We Will Connect  Soon!');
-
-        form.reset();
+       
    
     });
 });
