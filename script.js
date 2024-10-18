@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     form.addEventListener('submit', function (event) {
         event.preventDefault();
         
-        // Get form field values
+ 
         const firstName = document.getElementById('firstName').value;
         const lastName = document.getElementById('lastName').value;
         const email = document.getElementById('email').value;
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
 
-        // Create an object to store the form data
+        
         const formData = {
             firstName: firstName,
             lastName: lastName,
